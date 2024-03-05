@@ -26,7 +26,7 @@ function App() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         const input = e.currentTarget.elements[0] as HTMLInputElement
-        const newTodo = {id: todos.length + 1, value: input.value, completed: false}
+        const newTodo = {id: Math.random(), value: input.value, completed: false}
         storageProvider.setItem('todos', JSON.stringify([newTodo, ...todos]))
         form.current?.reset();
         setTodos([newTodo, ...todos])
