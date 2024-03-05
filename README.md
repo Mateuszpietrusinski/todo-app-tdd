@@ -11,9 +11,9 @@ This is a simple to-do app that allows you to add, delete and mark tasks as done
 
 ## Design
 The app is designed using the Material-UI library. It is a simple and clean design that is easy to use.
-![alt text](http://url/to/todo-app-design.jpg)
+![alt text](https://github.com/Mateuszpietrusinski/todo-app-tdd/todo-app-design.jpg)
 
 ## Components Architecture and Tests scenarios
-![alt text](http://url/to/todo-app-architecture.jpg)
+![alt text](https://github.com/Mateuszpietrusinski/todo-app-tdd/todo-app-architecture.jpg)
 
 
